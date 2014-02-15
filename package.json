@@ -1,0 +1,35 @@
+{
+  "name": "gulp-multinject",
+  "description": "Inject scripts, stylesheets and more into templates and htmls, with support for namespaces",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mariocasciaro/gulp-multinject",
+  "author": {
+    "name": "Mario Casciaro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mariocasciaro/gulp-multinject"
+  },
+  "bugs": {
+    "url": "https://github.com/mariocasciaro/gulp-multinject/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mariocasciaro/gulp-multinject/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "gulp-util": "~2.2.14",
+    "lodash": "~2.4.1",
+    "through2": "~0.4.1",
+    "minimatch": "~0.2.14"
+  },
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "mocha": "~1.17.1"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/_mocha test/*.js --reporter spec"
+  }
+}
