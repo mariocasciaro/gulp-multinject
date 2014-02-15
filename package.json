@@ -31,5 +31,9 @@
   },
   "scripts": {
     "test": "node_modules/mocha/bin/_mocha test/*.js --reporter spec"
-  }
+  },
+  "keywords": [
+    "gulpplugin",
+    "inject"
+  ]
 }
