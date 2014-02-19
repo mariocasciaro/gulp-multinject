@@ -10,7 +10,7 @@ function expected(file, base) {
   var filepath = path.resolve('test/expected', file);
   return new gutil.File({
     path: filepath,
-    cwd: process.cwd,
+    cwd: process.cwd(),
     base: base || 'test/expected',
     contents: fs.readFileSync(filepath)
   });
@@ -20,7 +20,7 @@ function fixture(file, base) {
   var filepath = path.join('test/fixtures', file);
   return new gutil.File({
     path: filepath,
-    cwd: process.cwd,
+    cwd: process.cwd(),
     base: base || 'test/fixtures',
     contents: fs.readFileSync(filepath)
   });
